@@ -19,7 +19,9 @@ execute:
 To run this app
 
 ```ruby
-ruby parser.rb '<name-of-the-file>'
+ruby app/parser.rb '<name-of-the-file>'
+
+ex.: ruby app/parser.rb 'webserver.log'
 ```
 
 

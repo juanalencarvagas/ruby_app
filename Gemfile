@@ -7,4 +7,5 @@ group :development, :test do
   gem 'pry-byebug', require: false
   gem 'rspec', '~> 3.0'
   gem 'rubocop', require: false
+  gem 'simplecov', require: false, group: :test
 end
