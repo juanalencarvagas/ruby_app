@@ -24,4 +24,11 @@ ruby app/parser.rb '<name-of-the-file>'
 ex.: ruby app/parser.rb 'webserver.log'
 ```
 
+## Potential Improvements
+This application is reading files in a certain log format, if it needs to read files in other formats (eg json), changes in the reading class would be necessary.
+
+Tests were made with a small base of logs, if there is a large number, other strategies such as storing data in a database will be necessary.
+
+
+
 

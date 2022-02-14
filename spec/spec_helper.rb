@@ -2,6 +2,7 @@
 
 require 'bundler/setup'
 require 'simplecov'
+require 'factory_bot'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
@@ -12,6 +13,14 @@ RSpec.configure do |config|
 
   config.expect_with :rspec do |c|
     c.syntax = :expect
+  end
+
+  RSpec.configure do |c|
+    c.include FactoryBot::Syntax::Methods
+
+    c.before(:suite) do
+      FactoryBot.find_definitions
+    end
   end
 
   SimpleCov.start

@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 group :development, :test do
+  gem 'factory_bot'
   gem 'pry', require: false
   gem 'pry-byebug', require: false
   gem 'rspec', '~> 3.0'

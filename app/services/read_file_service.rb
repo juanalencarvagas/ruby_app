@@ -28,7 +28,7 @@ class ReadFileService
   end
 
   def split_log(line)
-      item = line.split
-      { site_url: item[0], site_ip: item[1] }
+    item = line.split
+    { site_url: item[0], site_ip: item[1] }
   end
 end

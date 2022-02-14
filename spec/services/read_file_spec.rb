@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../../app/services/read_file_service.rb'
+require_relative '../../app/services/read_file_service'
 require 'rspec'
 
 RSpec.describe ReadFileService do

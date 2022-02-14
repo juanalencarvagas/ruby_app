@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../..app/services/print_service'
+require_relative '../../app/services/print_service'
 require 'rspec'
 
 RSpec.describe PrintService do
