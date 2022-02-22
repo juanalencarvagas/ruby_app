@@ -24,6 +24,15 @@ ruby app/parser.rb '<name-of-the-file>'
 ex.: ruby app/parser.rb 'webserver.log'
 ```
 
+## Test
+
+To run the tests on the project, you need to have ruby and gems installed.
+
+```ruby
+bundle exec rspec
+```
+
+
 ## Potential Improvements
 This application is reading files in a certain log format, if it needs to read files in other formats (eg json), changes in the reading class would be necessary.
 
